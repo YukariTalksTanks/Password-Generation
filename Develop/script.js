@@ -8,7 +8,7 @@ function writePassword() {
     var passLength = prompt("Password length (min:8 chars, max:128 chars): ");
     var length = parseInt(passLength);
 
-    var passChars = prompt("What type of characters would you like to use: \n(select them all desired characters types at once with spaces between types:\nlowercase, uppercase, numeric, special characters or all");
+    var passChars = prompt("What type of characters would you like to use: \nlowercase, uppercase, numeric, special characters or all");
     var charset;
     var charset1 = "abcdefghijklmnopqrstuvwxyz";
     var charset2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
